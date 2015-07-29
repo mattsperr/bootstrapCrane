@@ -6,86 +6,129 @@
         <!-- title and meta -->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-        <meta name="description" content="" />
         <title>Cheryl Crane | Sociologist</title>
             
-        <!-- css -->
+        
         <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,400italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="bootstrap.css" />
-        <link rel="shortcut icon" href="favicon.ico" />
-            
-        <!-- js -->
-        <script src="bootstrap.js"></script>
         
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap-theme.css" rel="stylesheet">
+        <link href="css/cherylBS.css" rel="stylesheet">
+        <link rel="shortcut icon" href="favicon.ico">
+        <!--
+        <link rel="stylesheet" href="cheryl.css" >
+        -->    
+         
+        <!-- js
+        <script src="js/bootstrap.js"></script>
+        
+        <script>
+            function init() {
+                window.addEventListener('scroll', function(e){
+                    var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                        shrinkOn = 1,
+                        header = document.querySelector("header");
+                    if (distanceY > shrinkOn) {
+                        classie.add(header,"smaller");
+                    } else {
+                        if (classie.has(header,"smaller")) {
+                            classie.remove(header,"smaller");
+                        }
+                    }
+                });
+            }
+            window.onload = init();
+        </script>
+        -->
     </head>
 
-
-
     <body>
-
-        <div id="wrapper">
-
-            <header>
-                <div class="container clearfix">
-                    <h1 id="name">
-                        Cheryl Crane
-                    </h1>
-                    <nav>
-                      <a href="indexCheryl.html">Bio</a>
-                      <a href="CV.html" class="selected">CV</a>
-                      <a href="contactCheryl.html">Contact</a>
-                    </nav>
-                </div>
-            </header><!-- /header -->
-
-            <div id="main">
-                 
-                    <div id="content">
+            
+        <div class="navbar navbar-fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-text">Cheryl Crane</a>
+                <a class="text-capitalize navbar-text">Sociologist</a>
                     
-                    <section>
+                    <ul class="nav nav-pills navbar-right">
+                        <li role="presentation" class="active"><a href="indexCherylBS.html">Bio</a></li>
+                        <li role="presentation"><a href="CV.html">CV</a></li>
+                        <li role="presentation"><a href="contact.html">Contact</a></li>
+                    </ul>
+                                    <!--
+                    <nav class="nav nav-pills navbar-right">
+                      <a href="indexCherylBS.html" class="selected">Bio</a>
+                      <a href="CV.html">CV</a>
+                      <a href="contact.html">Contact</a>
+                    </nav>
+                    -->
+            </div>
+        </div>
+        <!-- /header -->
 
-                        <div class="container">
-                             
-                          
-                        </div>
-                    </section>
+     
+                
+                
 
-                    <section>
-                        <div class="container">
-                                                        
-                            <h1>Next Section of Info</h1>
-                            <p>Section details.</p>
-                        </div>
-                    </section>
-                    <section>
-                        <div class="container">
-                                                        
-                            <h1>Another Section of Info - The stuff below is there only for space holding</h1>
-                            <p>A.B.D. (Applied Sociology), University of Louisville Expected May 2016</p>
-                            <p>M.A. (Human Geography), University of Washington, Seattle</p>
-                            <p>B.A. (Human Geography), University of Washington, Seattle</p>
-                        </div>
-                    </section>
+        <div class="container">
+            <div class="row ft">
+                <div class="col-sm-6 ft-copy">
+                    <img class="img-circle responsive-img" src="CherylWebsite.jpg" alt="Photograph of Cheryl Crane">
+                </div>                
+                <div class="col-sm-6">
+                    <h1>Research</h1>
+                    <p>
+                        Cheryl Crane is a third year doctoral student in the Department of Sociology at the University of Louisville. She researches 
+                        mothering, birth, and family; resistance, inequality 
+                        and intersectionality. She is currently collecting in
+                        depth interviews with mothers for her dissertation to 
+                        learn how women construct scripts about “good mothers,” and how this ideology translates into acts of 
+                        mothering.
+                    </p>
                 </div>
-            </div><!-- #main -->
+            </div>   
+        
+            <div class="row ft">
+                        
+                <div class="col-sm-6 ft-copy">                   
+                    <h1>Teaching</h1>
+                    <p>
+                        Cheryl is a Graduate Teaching Assistant for the Department 
+                        of Sociology. Currently, she is teaching Diversity and Inequality. In addi-
+                        tion, she has taught Introduction to Sociology, Introduction to World 
+                        Geography, and Introduction to Human Geography. She is preparing to 
+                        teach Social Problems and Social Theory.
+                     </p>
+                </div>     
+                <div class="col-sm-6">
+                    <img src="PeaceSquare.jpg" alt="Japanese Peace Charachter" class="img-circle responsive-img"> 
+                </div>     
+                
+            </div>    
+            <div class="row ft">
+                <div class="col-sm-6 ft-copy">
+                    <img src="flowerEd (2).jpg" alt="flower" class="img-circle responsive-img">
+                </div>
+                <div class="col-sm-6"> 
+                    <h1>Education</h1>
+                    <p>A.B.D. (Applied Sociology), University of Louisville Expected May 2016</p>
+                     <p>M.A. (Human Geography), University of Washington, Seattle</p>
+                     <p>B.A. (Human Geography), University of Washington, Seattle</p>
+                </div>
+            </div>
+        </div>
+        <!-- #main -->
 
+        <!-- /footer -->
+        <div class="panel-footer">
+ 
+            <p class="text-center">&copy; 2015 Cheryl Crane.</p>
+ 
+        </div>
 
-                    <footer>
-
-                        <div>
-
-                            
-                            <a href="http://facebook.com/mattsperr"><img src="mail.png" alt="Mail Logo" class="social-icon"></a>
-                            <p>&copy; 2015 Cheryl Crane.</p>
-                        </div>
-
-                    </footer><!-- /footer -->
-
-
-
-        </div><!-- /#wrapper -->
-
+        <!-- /#wrapper -->
 
     </body>
+    <script src="config.json"></script>
+    <script src="js/bootstrap.js"></script>
 </html>
