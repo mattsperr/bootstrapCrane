@@ -1,5 +1,5 @@
 body { 
-	padding-top: 130px; 
+	padding-top: 10%; 
     margin-left: 0%;
     margin-right: 0%;
 }
@@ -8,7 +8,7 @@ body {
 	font-weight: normal;
 	font-size: 55px;
 	color: #ffffff;
-	padding-left: 20%;
+	padding-left: 16%;
 	
 
 }
@@ -22,7 +22,7 @@ body {
 }
 .nav-pills {
 	padding-top: 32px;
-	padding-right: 10%;
+	padding-right: 8%;
 }
 .nav-pills>li>a{
      color: #000; 
@@ -36,10 +36,22 @@ body {
 }     
 
 .ft {
-	padding-top: 4%;
+	padding-top: 6%;
 	padding-bottom: 4%;
 	padding-left: -1%;
 	padding-right: 17%;
+}
+
+.navbar-static-top {
+	background-color: #20B2AA;
+	color: #20B2AA;
+}
+
+.egg {
+	font-size: 40px;
+	text-align: center;
+	text-decoration: 400;
+
 }
 
 img {
