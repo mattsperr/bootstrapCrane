@@ -87,3 +87,46 @@ body {
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
+
+/* contact */
+
+ul {
+	list-style: none;
+}
+
+.contact-info a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 5px 10px 10px;
+}
+/*
+section {
+	padding-left: 23%;
+	padding-right: 20%;
+	margin-top: 0%;
+}
+*/
+.flow {
+	margin-left: %;
+}
+
+
+.contact-info {
+	margin-bottom: 11%;
+}
+
+.contact-info li.phone a {
+    background-image: url('../phone.png');
+    
+}
+
+.contact-info li.mail a {
+	background-image: url('../mail.png');
+}
+
+.contact-info li.linkedin a {
+	background-image: url('../linkedin.png');
+}
